@@ -1,0 +1,36 @@
+{
+  "name": "animal-shelter",
+  "version": "1.0.0",
+  "description": " A web application providing information about animal shelters",
+  "main": "index.js",
+  "scripts": {
+    "test": "react-scripts test",
+    "start": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "animal-shelter"
+  },
+  "keywords": [
+    "animal",
+    "shelter"
+  ],
+  "author": "janikaa",
+  "license": "ISC",
+  "dependencies": {
+    "react-dom": "^18.3.1",
+    "react-scripts": "^3.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
