@@ -1,0 +1,39 @@
+.statistics{
+    background-color: #f0f0f0;
+    padding: 2rem;
+    text-align: left;
+}
+
+.statistics .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.statistics h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.statistics p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.statistics ul {
+    list-style-type: disc;
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.statistics ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.statistics ul li:before {
+    content: "•";
+    color: #4CAF50;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
