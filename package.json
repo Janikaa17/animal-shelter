@@ -4,8 +4,10 @@
   "description": " A web application providing information about animal shelters",
   "main": "index.js",
   "scripts": {
-    "test": "react-scripts test",
-    "start": "react-scripts start"
+    "test": "react-scripts --openssl-legacy-provider test",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,8 @@
   "license": "ISC",
   "dependencies": {
     "react-dom": "^18.3.1",
-    "react-scripts": "^3.0.1"
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "^5.0.1"
   },
   "browserslist": {
     "production": [

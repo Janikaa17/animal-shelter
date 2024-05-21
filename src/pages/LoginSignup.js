@@ -1,12 +1,10 @@
 import React from 'react';
-import Login from '../src/components/Login';
-import Signup from '../src/components/Signup';
+import Login from '../components/Login';
 
 const LoginSignup = () => {
     return (
         <main className="login-signup-page">
             <Login />
-            <Signup />
         </main>
     );
 };

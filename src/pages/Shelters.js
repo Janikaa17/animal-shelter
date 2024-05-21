@@ -1,5 +1,5 @@
 import React from 'react';
-import ShelterList from '../src/components/ShelterList';
+import ShelterList from '../components/ShelterList';
 
 const Shelters =() =>{
     return (

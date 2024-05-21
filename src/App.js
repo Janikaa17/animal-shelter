@@ -1,20 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch} from 'react-route-dom';
-import Header from './components/Header';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './pages/Home';
 import LoginSignup from './pages/LoginSignup';
 import Shelters from './pages/Shelters';
-import './App.css';
+import './components/App.css';
 
 const App=()=> {
     return (
         <Router>
             <Header />
-            <Switch>
+            <Routes>
             <Route exact path="/" components={Home} />
             <Route path="/login" components={LoginSignup} />
             <Route path="/shelters" components={Shelters} />
-            </Switch>
+            </Routes>
         </Router>
     );
 };

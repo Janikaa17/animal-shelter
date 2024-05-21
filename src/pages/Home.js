@@ -1,5 +1,5 @@
 import React from 'react';
-import Statistics from '../src/components/Statisticstatistics';
+import Statistics from '../components/Statistics';
 
 const Home=() => {
     return (

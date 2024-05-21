@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react' ;
-import './ShelterList.css';
+import './Shelter.css';
 
 const ShelterList =() => {
     const [shelter, setShelter] = useState([]);
